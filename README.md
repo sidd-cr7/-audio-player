@@ -1,15 +1,15 @@
 # Audio Player
 
-A modern, Spotify-inspired audio player built with React that plays royalty-free music from the Free Music Archive.
+A modern, audio player built with React that plays royalty-free music from the Free Music Archive.
 
 ## Features
 
-- 🎵 **Real Music** - Streams from Free Music Archive
-- 🎨 **Modern UI** - Dark theme with National Geographic yellow accents
-- ⏯️ **Full Controls** - Play, pause, skip tracks, volume control
-- 🎛️ **Speed Control** - Adjust playback speed (0.5x to 2x)
-- 📱 **Responsive** - Works on desktop and mobile
-- 🎼 **Track Info** - Displays song title, artist, album, and genre
+-  **Real Music** - Streams from Free Music Archive
+-  **Modern UI** - Dark theme with National Geographic yellow accents
+-  **Full Controls** - Play, pause, skip tracks, volume control
+-  **Speed Control** - Adjust playback speed (0.5x to 2x)
+-  **Responsive** - Works on desktop and mobile
+-  **Track Info** - Displays song title, artist, album, and genre
 
 ## Getting Started
 
@@ -31,7 +31,7 @@ A modern, Spotify-inspired audio player built with React that plays royalty-free
 
 4. **Open your browser**
    - Go to `http://localhost:3000`
-   - Enjoy the music! 🎶
+   - Enjoy the music! 
 
 ## How It Works
 
@@ -60,5 +60,3 @@ A modern, Spotify-inspired audio player built with React that plays royalty-free
 This project is open source and available under the MIT License.
 
 ---
-
-*Enjoy your music! 🎵*
