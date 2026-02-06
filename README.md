@@ -1,6 +1,6 @@
 # Audio Player
 
-A modern, audio player built with React that plays royalty-free music from the Free Music Archive.
+A modern audio player built with React that plays music from Youtube developer api
 
 ## Features
 
