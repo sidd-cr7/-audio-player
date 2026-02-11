@@ -1,7 +1,17 @@
-## AUDIO PLAYER
+Audio Player
 
-a simple audio player that plays music from Google Cloud Developer from Youtube api
+A simple web-based audio player that streams music using the YouTube API via Google Cloud.
 
-works both on mobile and desktop devices
+The application works seamlessly on both mobile and desktop devices and runs directly in the browser.
 
-plays on the browser with functionalities that display the next upcoming songs on a side panel and a feature to skip to the next or to the previous song
+Features
+
+Play music directly within the web interface
+
+Skip to the next or previous track
+
+Display upcoming songs in a side panel
+
+Responsive design for mobile and desktop compatibility
+
+The project integrates with Google Cloud and the YouTube API to fetch and manage audio content dynamically.
