@@ -5,9 +5,6 @@ A modern audio player built with React that plays music from Youtube developer a
 ## Features
 
 -  **Real Music** - Streams from Free Music Archive
--  **Modern UI** - Dark theme with National Geographic yellow accents
--  **Full Controls** - Play, pause, skip tracks, volume control
--  **Speed Control** - Adjust playback speed (0.5x to 2x)
 -  **Responsive** - Works on desktop and mobile
 -  **Track Info** - Displays song title, artist, album, and genre
 
