@@ -13,7 +13,7 @@ const AudioPlayer = () => {
 
   const fetchSongs = async () => {
     setSongs([
-      { title: "Blinding Lights", artist: "The Weeknd", album: "After Hours", genre: "Pop", duration: "3:20", videoId: "4NRXx6U8ABQ", cover: "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png" },
+      { title: "Blinding Lights", artist: "The Weeknd", album: "After Hours", genre: "Pop", duration: "3:20", videoId: "4NRXx6U8ABQ", cover: "https://res.cloudinary.com/drexsvnpj/image/upload/v1770987981/weeknd_after_hours_ga6i7n.jpg" },
       { title: "Shape of You", artist: "Ed Sheeran", album: "÷ (Divide)", genre: "Pop", duration: "3:53", videoId: "JGwWNGJdvx8", cover: "https://upload.wikimedia.org/wikipedia/en/b/b4/Shape_Of_You_%28Official_Single_Cover%29_by_Ed_Sheeran.png" },
       { title: "Someone Like You", artist: "Adele", album: "21", genre: "Pop", duration: "4:45", videoId: "hLQl3WQQoQ0", cover: "https://upload.wikimedia.org/wikipedia/en/1/1b/Adele_-_21.png" },
       { title: "Uptown Funk", artist: "Mark Ronson ft. Bruno Mars", album: "Uptown Special", genre: "Funk", duration: "4:30", videoId: "OPf0YbXqDm0", cover: "https://res.cloudinary.com/drexsvnpj/image/upload/v1770888166/Uptown_Funk_-_Bruno_Mars_teczdu.jpg" },
@@ -26,22 +26,18 @@ const AudioPlayer = () => {
       { title: "Senorita", artist: "Shawn Mendes & Camila Cabello", album: "Single", genre: "Pop", duration: "3:11", videoId: "Pkh8UtuejGw", cover: "https://res.cloudinary.com/drexsvnpj/image/upload/v1770889011/download_1_ibfaoa.jpg" },
       { title: "Believer", artist: "Imagine Dragons", album: "Evolve", genre: "Rock", duration: "3:24", videoId: "7wtfhZwyrcc", cover: "https://res.cloudinary.com/drexsvnpj/image/upload/v1770889166/Believer_-_Imagine_Dragons_jntb9k.jpg" },
       { title: "Happier", artist: "Marshmello & Bastille", album: "Single", genre: "Electronic", duration: "3:34", videoId: "m7Bc3pLyij0", cover: "https://res.cloudinary.com/drexsvnpj/image/upload/v1770890203/Happier_-_Marshmello_moycdp.jpg" },
-      { title: "Perfect", artist: "Ed Sheeran", album: "÷ (Divide)", genre: "Pop", duration: "4:23", videoId: "2Vv-BfVoq4g", cover: "https://upload.wikimedia.org/wikipedia/en/8/80/Ed_Sheeran_Perfect_Single_cover.jpg" },
-      { title: "Shallow", artist: "Lady Gaga & Bradley Cooper", album: "A Star Is Born", genre: "Pop", duration: "3:35", videoId: "bo_efYhYU2A", cover: "https://upload.wikimedia.org/wikipedia/en/e/eb/Lady_Gaga_and_Bradley_Cooper_-_Shallow.png" },
-      { title: "Havana", artist: "Camila Cabello ft. Young Thug", album: "Camila", genre: "Pop", duration: "3:37", videoId: "BQ0mxQXmLsk", cover: "https://upload.wikimedia.org/wikipedia/en/e/e1/Camila_Cabello_-_Havana.png" },
-      { title: "Rockstar", artist: "Post Malone ft. 21 Savage", album: "Beerbongs & Bentleys", genre: "Hip-Hop", duration: "3:38", videoId: "UceaB4D0jpo", cover: "https://upload.wikimedia.org/wikipedia/en/8/8f/Post_Malone_-_Rockstar.png" },
-      { title: "God's Plan", artist: "Drake", album: "Scorpion", genre: "Hip-Hop", duration: "3:18", videoId: "xpVfcZ0ZcFM", cover: "https://upload.wikimedia.org/wikipedia/en/1/12/Drake_-_God%27s_Plan.png" },
-      { title: "Old Town Road", artist: "Lil Nas X ft. Billy Ray Cyrus", album: "7", genre: "Country Rap", duration: "2:37", videoId: "r7qovpFAGrQ", cover: "https://upload.wikimedia.org/wikipedia/en/2/2f/Lil_Nas_X_-_Old_Town_Road_%28Official_Single_Cover%29.png" },
+      { title: "Cry For Me", artist: "The Weeknd", album: "Hurry Up Tomorrow", genre: "Pop", duration: "3:30", videoId: "bn8gP5N8hqM", cover: "https://res.cloudinary.com/drexsvnpj/image/upload/v1770987988/weeknd_hut_hucbp5.jpg" },
+      { title: "Save Your Tears", artist: "The Weeknd", album: "After Hours", genre: "Pop", duration: "3:35", videoId: "XXYlFuWEuKI", cover: "https://res.cloudinary.com/drexsvnpj/image/upload/v1770987981/weeknd_after_hours_ga6i7n.jpg" },
       { title: "Starboy", artist: "The Weeknd ft. Daft Punk", album: "Starboy", genre: "Pop", duration: "3:50", videoId: "34Na4j8AVgA", cover: "https://upload.wikimedia.org/wikipedia/en/3/39/The_Weeknd_-_Starboy.png" },
-      { title: "One Dance", artist: "Drake ft. Wizkid", album: "Views", genre: "Hip-Hop", duration: "2:54", videoId: "oP3c1h8v2ZQ", cover: "https://upload.wikimedia.org/wikipedia/en/3/3b/Drake_-_One_Dance.png" },
-      { title: "Closer", artist: "The Chainsmokers ft. Halsey", album: "Collage", genre: "Electronic", duration: "4:04", videoId: "PT2_F-1esPk", cover: "https://upload.wikimedia.org/wikipedia/en/2/23/The_Chainsmokers_%E2%80%93_Closer_%28featuring_Halsey%29_%28Official_Single_Cover%29.png" },
-      { title: "Stay", artist: "The Kid LAROI & Justin Bieber", album: "F*ck Love 3", genre: "Pop", duration: "2:21", videoId: "kTJczUoc26U", cover: "https://upload.wikimedia.org/wikipedia/en/c/c5/The_Kid_Laroi_and_Justin_Bieber_-_Stay.png" },
-      { title: "Heat Waves", artist: "Glass Animals", album: "Dreamland", genre: "Alternative", duration: "3:58", videoId: "mRD0-GxqHVo", cover: "https://upload.wikimedia.org/wikipedia/en/d/d6/Glass_Animals_-_Heat_Waves.png" },
-      { title: "As It Was", artist: "Harry Styles", album: "Harry's House", genre: "Pop", duration: "2:47", videoId: "H5v3kku4y6Q", cover: "https://upload.wikimedia.org/wikipedia/en/9/9d/Harry_Styles_-_As_It_Was.png" },
-      { title: "Anti-Hero", artist: "Taylor Swift", album: "Midnights", genre: "Pop", duration: "3:20", videoId: "b1kbLwvqugk", cover: "https://upload.wikimedia.org/wikipedia/en/b/bd/Taylor_Swift_-_Anti-Hero.png" },
-      { title: "Flowers", artist: "Miley Cyrus", album: "Endless Summer Vacation", genre: "Pop", duration: "3:20", videoId: "G7KNmW9a75Y", cover: "https://upload.wikimedia.org/wikipedia/en/7/72/Miley_Cyrus_-_Flowers.png" },
+      { title: "One Dance", artist: "Drake ft. Wizkid", album: "Views", genre: "Hip-Hop", duration: "2:54", videoId: "oP3c1h8v2ZQ", cover: "https://res.cloudinary.com/drexsvnpj/image/upload/v1770989378/Views_rafr7v.jpg" },
+      { title: "Paradise", artist: "Bazzi", album: "Soul Searching", genre: "Pop", duration: "3:31", videoId: "x90WLRa5uGo", cover: "https://res.cloudinary.com/drexsvnpj/image/upload/v1770989705/bazzi_dtfwrc.jpg" },
+      { title: "Stay", artist: "The Kid LAROI & Justin Bieber", album: "F*ck Love 3", genre: "Pop", duration: "2:21", videoId: "kTJczUoc26U", cover: "https://res.cloudinary.com/drexsvnpj/image/upload/v1770990135/STAY_with_Justin_Bieber_uwkf7v.jpg" },
+      { title: "Heat Waves", artist: "Glass Animals", album: "Dreamland", genre: "Alternative", duration: "3:58", videoId: "mRD0-GxqHVo", cover: "https://res.cloudinary.com/drexsvnpj/image/upload/v1770989828/Dreamland_by_Glass_Animals_on_Apple_Music_pmidwj.jpg" },
+      { title: "As It Was", artist: "Harry Styles", album: "Harry's House", genre: "Pop", duration: "2:47", videoId: "H5v3kku4y6Q", cover: "https://res.cloudinary.com/drexsvnpj/image/upload/v1770989890/harrys_house_iem6ji.jpg" },
+      { title: "Anti-Hero", artist: "Taylor Swift", album: "Midnights", genre: "Pop", duration: "3:20", videoId: "b1kbLwvqugk", cover: "https://res.cloudinary.com/drexsvnpj/image/upload/v1770989990/You_re_On_Your_Own_Kid_lr9pdm.jpg" },
+      { title: "Adore You", artist: "Harry Styles", album: "Fine Line", genre: "Pop", duration: "3:27", videoId: "VF-r5TtlT9w", cover: "https://res.cloudinary.com/drexsvnpj/image/upload/v1770888736/Watermelon_Sugar_-_YouTube_Music_lvvoad.jpg" },
       { title: "Vampire", artist: "Olivia Rodrigo", album: "GUTS", genre: "Pop", duration: "3:39", videoId: "RlPNh_PBZb4", cover: "https://upload.wikimedia.org/wikipedia/en/1/14/Olivia_Rodrigo_-_Vampire.png" },
-      { title: "Good 4 U", artist: "Olivia Rodrigo", album: "SOUR", genre: "Pop", duration: "2:58", videoId: "gNi_6U5Pm_o", cover: "https://upload.wikimedia.org/wikipedia/en/d/d7/Olivia_Rodrigo_-_Good_4_U.png" }
+      { title: "Good 4 U", artist: "Olivia Rodrigo", album: "SOUR", genre: "Pop", duration: "2:58", videoId: "gNi_6U5Pm_o", cover: "https://res.cloudinary.com/drexsvnpj/image/upload/v1770990239/Olivia_Rodrigo_____Sour___Vinyl_LP___Best_Buy_mdgwxq.jpg" }
     ]);
     setLoading(false);
   };
