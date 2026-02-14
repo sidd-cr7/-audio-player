@@ -31,7 +31,9 @@ A modern audio player built with React that plays music from Youtube developer a
 
 4. **Open your browser**
    - Go to `http://localhost:3000`
-   - Enjoy the music! 
+   - Enjoy the music!
+
+---
 
 ## How It Works
 
