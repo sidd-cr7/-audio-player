@@ -57,6 +57,8 @@ A modern audio player built with React that plays music from Youtube developer a
 - Free Music Archive API
 - CSS3 with modern styling
 
+---
+
 ## License
 
 This project is open source and available under the MIT License.
