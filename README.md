@@ -2,8 +2,6 @@
 
 A modern audio player built with React that plays music from Youtube developer api. 
 
----
-
 ## Features
 
 -  **Real Music** - Streams from Free Music Archive
