@@ -42,7 +42,9 @@ A modern audio player built with React that plays music from Youtube developer a
 - Fetches 20 songs from Free Music Archive API
 - Falls back to sample tracks if API is unavailable
 - All music is royalty-free and legal to use
-- Clean, minimalist interface inspired by Spotify. 
+- Clean, minimalist interface inspired by Spotify.
+
+---
 
 ## Controls
 
@@ -51,6 +53,8 @@ A modern audio player built with React that plays music from Youtube developer a
 - **Progress Bar** - Seek to any position
 - **Volume** - Adjust audio level
 - **Speed** - Change playback rate
+
+---
 
 ## Built With
 
