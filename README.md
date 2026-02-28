@@ -1,6 +1,6 @@
 # Audio Player
 
-A modern audio player built with React that plays music from Youtube developer api
+A modern audio player built with React that plays music from Youtube developer api.
 
 ---
 
