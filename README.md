@@ -2,6 +2,8 @@
 
 A modern web-based audio player built with React that streams music using the YouTube Developer API. It provides a clean, responsive interface with full playback controls and real music streaming.
 
+---
+
 # Features
 
 Real Music Streaming — Plays tracks using the Free Music Archive API
@@ -16,7 +18,9 @@ Responsive Design — Works seamlessly on desktop and mobile devices
 
 Track Information — Displays title, artist, album, and genre
 
-Getting Started
+---
+
+# Getting Started
 1. Clone the repository
 git clone <your-repo-url>
 cd audio-player
