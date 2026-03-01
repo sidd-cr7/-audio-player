@@ -44,7 +44,9 @@ Streams royalty-free and legally usable music
 
 Provides a minimal, user-friendly interface inspired by Spotify
 
-Controls
+---
+
+# Controls
 
 Previous / Next — Skip between tracks
 
@@ -56,7 +58,9 @@ Volume Control — Adjust sound level
 
 Speed Control — Modify playback rate
 
-Recommended: Use an Ad Blocker
+---
+
+# Recommended: Use an Ad Blocker
 
 Since the player streams content through the YouTube API, users may occasionally experience ads depending on the source.
 
@@ -64,7 +68,9 @@ For a smoother listening experience, it is recommended to use an ad blocker whil
 
 (This is optional but improves uninterrupted playback.)
 
-Built With
+---
+
+# Built With
 
 React 18
 
@@ -74,6 +80,8 @@ Free Music Archive API
 
 CSS3 (modern responsive styling)
 
-License
+---
+
+# License
 
 This project is open source and available under the MIT License.
