@@ -1,72 +1,74 @@
-# Audio Player
+Audio Player
 
-A modern audio player built with React that plays music from Youtube developer api.
+A modern web-based audio player built with React that streams music using the YouTube Developer API. It provides a clean, responsive interface with full playback controls and real music streaming.
 
----
+✨ Features
 
-## Features
+🎵 Real Music Streaming — Plays tracks using the Free Music Archive API
 
--  **Real Music** - Streams from Free Music Archive
--  **Modern UI** - Dark theme with National Geographic yellow accents
--  **Full Controls** - Play, pause, skip tracks, volume control
--  **Speed Control** - Adjust playback speed (0.5x to 2x)
--  **Responsive** - Works on desktop and mobile
--  **Track Info** - Displays song title, artist, album, and genre
+🎨 Modern UI — Dark theme with National Geographic–inspired yellow accents
 
-## Getting Started
+⏯ Full Playback Controls — Play, pause, skip tracks, and volume adjustment
 
-1. **Clone the repository**
-   ```bash
-   git clone <your-repo-url>
-   cd audio-player
-   ```
+⚡ Speed Control — Change playback speed (0.5× to 2×)
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
+📱 Responsive Design — Works seamlessly on desktop and mobile devices
 
-3. **Start the app**
-   ```bash
-   npm start
-   ```
+ℹ Track Information — Displays title, artist, album, and genre
 
-4. **Open your browser**
-   - Go to `http://localhost:3000`
-   - Enjoy the music!
+🚀 Getting Started
+1. Clone the repository
+git clone <your-repo-url>
+cd audio-player
+2. Install dependencies
+npm install
+3. Start the application
+npm start
+4. Open your browser
 
----
+Visit:
 
-## How It Works
+http://localhost:3000
+⚙ How It Works
 
-- Fetches 20 songs from Free Music Archive API
-- Falls back to sample tracks if API is unavailable
-- All music is royalty-free and legal to use
-- Clean, minimalist interface inspired by Spotify.
+Fetches 20 tracks from the Free Music Archive API
 
----
+Automatically falls back to sample tracks if the API is unavailable
 
-## Controls
+Streams royalty-free and legally usable music
 
-- **Previous/Next** - Skip between tracks
-- **Play/Pause** - Control playback
-- **Progress Bar** - Seek to any position
-- **Volume** - Adjust audio level
-- **Speed** - Change playback rate
+Provides a minimal, user-friendly interface inspired by Spotify
 
----
+🎛 Controls
 
-## Built With
+Previous / Next — Skip between tracks
 
-- React 18
-- HTML5 Audio API
-- Free Music Archive API
-- CSS3 with modern styling
+Play / Pause — Control audio playback
 
----
+Progress Bar — Seek to any point in the track
 
-## License
+Volume Control — Adjust sound level
+
+Speed Control — Modify playback rate
+
+⚠ Recommended: Use an Ad Blocker
+
+Since the player streams content through the YouTube API, users may occasionally experience ads depending on the source.
+
+For a smoother listening experience, it is recommended to use an ad blocker while playing music.
+
+(This is optional but improves uninterrupted playback.)
+
+🛠 Built With
+
+React 18
+
+HTML5 Audio API
+
+Free Music Archive API
+
+CSS3 (modern responsive styling)
+
+📄 License
 
 This project is open source and available under the MIT License.
-
----
