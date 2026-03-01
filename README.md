@@ -33,7 +33,8 @@ npm start
 Visit:
 
 http://localhost:3000
-How It Works
+---
+# How It Works
 
 Fetches 20 tracks from the Free Music Archive API
 
