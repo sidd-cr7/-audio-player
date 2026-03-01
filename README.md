@@ -4,19 +4,19 @@ A modern web-based audio player built with React that streams music using the Yo
 
 # Features
 
-🎵 Real Music Streaming — Plays tracks using the Free Music Archive API
+Real Music Streaming — Plays tracks using the Free Music Archive API
 
-🎨 Modern UI — Dark theme with National Geographic–inspired yellow accents
+Modern UI — Dark theme with National Geographic–inspired yellow accents
 
-⏯ Full Playback Controls — Play, pause, skip tracks, and volume adjustment
+Full Playback Controls — Play, pause, skip tracks, and volume adjustment
 
-⚡ Speed Control — Change playback speed (0.5× to 2×)
+Speed Control — Change playback speed (0.5× to 2×)
 
-📱 Responsive Design — Works seamlessly on desktop and mobile devices
+Responsive Design — Works seamlessly on desktop and mobile devices
 
-ℹ Track Information — Displays title, artist, album, and genre
+Track Information — Displays title, artist, album, and genre
 
-🚀 Getting Started
+Getting Started
 1. Clone the repository
 git clone <your-repo-url>
 cd audio-player
@@ -29,7 +29,7 @@ npm start
 Visit:
 
 http://localhost:3000
-⚙ How It Works
+How It Works
 
 Fetches 20 tracks from the Free Music Archive API
 
@@ -39,7 +39,7 @@ Streams royalty-free and legally usable music
 
 Provides a minimal, user-friendly interface inspired by Spotify
 
-🎛 Controls
+Controls
 
 Previous / Next — Skip between tracks
 
@@ -51,7 +51,7 @@ Volume Control — Adjust sound level
 
 Speed Control — Modify playback rate
 
-⚠ Recommended: Use an Ad Blocker
+Recommended: Use an Ad Blocker
 
 Since the player streams content through the YouTube API, users may occasionally experience ads depending on the source.
 
@@ -59,7 +59,7 @@ For a smoother listening experience, it is recommended to use an ad blocker whil
 
 (This is optional but improves uninterrupted playback.)
 
-🛠 Built With
+Built With
 
 React 18
 
@@ -69,6 +69,6 @@ Free Music Archive API
 
 CSS3 (modern responsive styling)
 
-📄 License
+License
 
 This project is open source and available under the MIT License.
