@@ -1,6 +1,6 @@
 ## Audio Player
 
-A modern web-based audio player built with React that streams music using the YouTube Developer API. It provides a clean, responsive interface with full playback controls and real music streaming
+A modern web-based audio player built with React that streams music using the YouTube Developer API. It provides a clean, responsive interface with full playback controls and real music streaming. 
 
 ---
 
