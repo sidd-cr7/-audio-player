@@ -4,7 +4,7 @@ A modern web-based audio player built with React that streams music using the Yo
 
 ---
 
- Features
+# Features
 
 Real Music Streaming — Plays tracks using the Free Music Archive API
 
